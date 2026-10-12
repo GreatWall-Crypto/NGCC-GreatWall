@@ -1,0 +1,33 @@
+{
+  "generator_origin": "/mnt/d/VsCode/AIMer/rain_instance_gen.sage",
+  "generator_origin_sha256": "4d71eea8de8ba418476044d5ea2c92d8aed5f88544a517fae15cf244a96aeb8c",
+  "sage_version": "SageMath version 9.5, Release Date: 2022-01-30",
+  "lambda": 160,
+  "n": 163,
+  "e1": 79,
+  "e2": 86,
+  "native_modulus": "X^163+X^7+X^6+X^3+1",
+  "shake256_seed_ascii": "GreatWall-163",
+  "sampling": "21 bytes per draw; big-endian integer; mask to 163 bits",
+  "round_constant_draws": 3,
+  "round_constants_used": 2,
+  "unused_third_round_constant_hex": "0x6dfa1c36f4c8d35c54eeb85e380d9b00ebd5fbdc0",
+  "total_random_draws": 1307,
+  "matrix_candidates": [
+    2,
+    4,
+    2
+  ],
+  "output_convention": "upstream M.transpose(); row i bit j maps input j to output i",
+  "validation": [
+    "native modulus irreducible",
+    "dual basis on all 163^2 pairs",
+    "all matrix entries equal trace formula",
+    "all three matrices rank 163",
+    "all three inverses checked in both orders",
+    "all packed bits checked"
+  ],
+  "header_sha256": "78fdd4f2f667dd2b2835a09eb527017f421c7972f25333e701d7676c2eaae9c3",
+  "reference_header_sha256": "bb57f6f43acebe6ddc493a64df18160fae08df6f0a5ef33d6b6d19bf0ae6da91",
+  "reference_header_note": "Only trailing whitespace differs from the generated header; all 1962 hexadecimal words are identical."
+}
